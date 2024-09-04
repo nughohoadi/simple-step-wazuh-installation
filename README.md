@@ -1,7 +1,7 @@
 Linux APT :
-  1. Install the following packages if missing.
-      apt-get install gnupg apt-transport-https
-      apt-get install curl
+  1. Install the following packages if missing.\
+      apt-get install gnupg apt-transport-https\
+      apt-get install curl\
   3. Install the GPG key.
       curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | gpg --no-default-keyring --keyring gnupg-ring:/usr/share/keyrings/wazuh.gpg --import && chmod 644 /usr/share/keyrings/wazuh.gpg
   4. Add the repository.
@@ -11,7 +11,7 @@ Linux APT :
       apt-get update
 
 Linux YUM :
-  1. Install the following packages if missing.
+  1. Install the following packages if missing.\
       yum install curl
   3. Import the GPG key.
       rpm --import https://packages.wazuh.com/key/GPG-KEY-WAZUH
